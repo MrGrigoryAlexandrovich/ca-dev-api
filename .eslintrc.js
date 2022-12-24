@@ -1,0 +1,30 @@
+module.exports = {
+  env: {
+    browser: true,
+    commonjs: true,
+    es2021: true,
+    node: true,
+  },
+  extends: "airbnb-base",
+  overrides: [],
+  parserOptions: {
+    ecmaVersion: "latest",
+  },
+  rules: {
+    "comma-dangle": [0],
+    "linebreak-style": 0,
+    quotes: 0,
+    "consistent-return": 0,
+    camelcase: 0,
+    "default-param-last": 0,
+    "prefer-destructuring": 0,
+    hasOwnProperty: 0,
+    radix: 0,
+    "no-prototype-builtins": 0,
+    "no-useless-catch": 0,
+    "no-use-before-define": 0,
+    "no-restricted-syntax": 0,
+    "no-nested-ternary": 0,
+    "no-else-return": [2, { allowElseIf: true }],
+  },
+};
