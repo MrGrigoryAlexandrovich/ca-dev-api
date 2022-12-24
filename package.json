@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/server.js --exec \"npm run lint && node\"",
+    "dev": "nodemon src/server.js",
     "lint": "npx eslint src"
   },
   "keywords": [],
