@@ -145,7 +145,7 @@ exports.find = async (req, res) => {
       });
     });
 
-    data.sort((a, b) => a.value - b.value);
+    data.sort((a, b) => b.value - a.value);
 
     const votes = data.reduce((memo, item) => memo + item.number, 0);
     const total = data.reduce(
